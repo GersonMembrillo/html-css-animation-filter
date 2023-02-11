@@ -54,10 +54,21 @@ width: 100%;
   filter: grayscale(100%);
 }
 
+/* qui come diceva come sopra ho lasciato lo stesso effetto, aggiunto solo il tempo */
+
 .ex-7-img{
   transition: 2s;
 }
 
 .ex-7-img:hover{
   filter: grayscale(100%);
+}
+
+.ex-8-img{
+  transition: 2s;
+}
+
+.ex-8-img:hover{
+filter: sepia(100%);
+border-radius: 20px;
 }
