@@ -85,7 +85,6 @@ border-radius: 20px;
 }
 
 .ex-10-icon{
-
   animation: spin 1s linear infinite reverse;
 }
 
@@ -97,4 +96,19 @@ border-radius: 20px;
     to {
       transform: rotate(360deg);
     }
+
+    /* alternativa */
+
+/* 0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);} */
 }
+
+.ex-11-icon:hover{
+  animation: spin-2 2s linear normal;
+}
+
+@keyframes spin-2 {
+0% {transform: rotate(0deg);}
+90% {transform: rotate(324deg);}
+100%{transform: rotate(0deg);}
+    }
