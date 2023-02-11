@@ -23,3 +23,13 @@ width: 100%;
 }
 
 /* p necessario in transition aggiungere l'elemento da modificare? perche ho notato che anche senza aggiungerlo funziona */
+
+/* lascio esempio, ora con scritto opacity nella transition */
+
+.ex-4-square{
+  transition:  1s;
+}
+
+.ex-4-square:hover{
+  opacity: 0%;
+}
