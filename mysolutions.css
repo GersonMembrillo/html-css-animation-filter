@@ -112,3 +112,48 @@ border-radius: 20px;
 90% {transform: rotate(324deg);}
 100%{transform: rotate(0deg);}
     }
+
+/* -------- */
+
+.well {cursor: pointer;}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: moving 3s linear normal;
+}
+
+@keyframes moving{
+  0% {top: -10px;
+    left: 10%;
+    }
+
+    50% {
+      top: -10px;
+        left: calc(100% - 60px);
+    }
+
+    100% {
+      top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: moving2 3s linear normal;
+}
+
+@keyframes moving2 {
+  0% {
+    bottom: -10px;
+      right: 20%;
+  }
+
+  50% {
+    bottom: -10px;
+      right: calc(100% - 60px);
+  }
+
+  100% {
+    bottom: -10px;
+      right: 20%;
+  }
+}
