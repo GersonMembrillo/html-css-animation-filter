@@ -13,3 +13,13 @@ background-color: red;
 .ex-2-square:active{
 width: 100%;
 }
+
+.ex-3-square{
+  transition: border-radius 0.5s;
+}
+
+.ex-3-square:hover{
+  border-radius: 50px;
+}
+
+/* p necessario in transition aggiungere l'elemento da modificare? perche ho notato che anche senza aggiungerlo funziona */
